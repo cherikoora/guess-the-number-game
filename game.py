@@ -46,11 +46,10 @@ old_attempts = 0
 counter = 0
 total_att = 0
 attempts = 1
-print('-' * 40)
-print('"0" для вывода доступных команд')
-print('-' * 40)
 maximal = check_max('введите максимальное число: ')
 old_max = maximal
+print('-' * 40)
+print('"0" для вывода доступных команд')
 print('-' * 40, '\n')
 print(f' ~~ диапазон чисел: 1 - {maximal} ~~ ')
 time.sleep(0.7)
